@@ -33,7 +33,7 @@ const RegistrationForm = () => {
     try {
       // Make a request to your registration API endpoint
       const response = await axios.post(
-        "http://localhost:7860/api/users/register",
+        "https://quiz-app-vca2.onrender.com/api/users/register",
         {
           username: credentials.username,
           password: credentials.password,

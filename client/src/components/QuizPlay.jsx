@@ -17,7 +17,7 @@ const QuizPlay = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:7860/api/quizzes/${id}`)
+      .get(`https://quiz-app-vca2.onrender.com/api/quizzes/${id}`)
       .then((response) => {
         setQuiz(response.data);
         setSelectedAnswers(
@@ -61,7 +61,7 @@ const QuizPlay = () => {
 
     // Proceed with submitting the quiz
     axios
-      .post(`http://localhost:7860/api/quizzes/${id}/submit`, {
+      .post(`https://quiz-app-vca2.onrender.com/api/quizzes/${id}/submit`, {
         selectedAnswers,
       })
       .then((response) => {

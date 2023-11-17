@@ -12,7 +12,7 @@ const QuizList = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:7860/api/quizzes/all")
+      .get("https://quiz-app-vca2.onrender.com/api/quizzes/all")
       .then((response) => {
         setQuizzes(response.data);
         // Simulate a 2-second loading delay

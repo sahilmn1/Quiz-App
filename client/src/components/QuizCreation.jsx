@@ -37,7 +37,7 @@ const QuizCreation = () => {
 
   const handleSaveQuiz = () => {
     axios
-      .post("http://localhost:7860/api/quizzes/create", quiz)
+      .post("https://quiz-app-vca2.onrender.com/api/quizzes/create", quiz)
       .then((response) => {
         console.log(response.data);
       })
