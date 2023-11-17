@@ -1,0 +1,78 @@
+.color {
+    color: blue;
+}
+
+.margin-top {
+    margin-top: 4em;
+}
+
+.center {
+    text-align: center;
+    border: 2px solid grey;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6em auto;
+    flex-direction: column;
+}
+
+.employer-dashboard {
+    /* Add some padding to the top and bottom of the dashboard */
+    padding: 20px 0;
+}
+
+.dashboard-section {
+    /* Display the dashboard sections as flexbox items */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* Add some margin to the bottom of each dashboard section */
+    margin-bottom: 20px;
+}
+
+.dashboard-section a {
+    /* Style the links in the dashboard sections */
+    color: #007bff;
+    /* text-decoration: none; */
+    font-weight: bold;
+}
+
+.dashboard-section h1 {
+    /* Style the headings in the dashboard sections */
+    font-size: 2rem;
+}
+
+.account-management {
+    /* Style the Account Management section */
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.account-management h2 {
+    /* Style the heading in the Account Management section */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.account-management p {
+    /* Style the paragraphs in the Account Management section */
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.text {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.text:hover {
+    color: rgb(68, 255, 0);
+}
+
+.text-size {
+    font-size: 2rem;
+}
