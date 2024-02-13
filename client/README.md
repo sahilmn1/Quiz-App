@@ -1,14 +1,17 @@
-#1 Clone this repository
-#2 In Both Server and Client 
-Just Run npm install 
+## Steps to Clone and Run the Repository
 
-# To Run Client 
-Run Command npm run dev
-# React + Vite
+### Step 1: Clone this repository
+You can clone this repository using the following command:
+```bash
+git clone <repository_url>
+Step 2: Install Dependencies
+Navigate to the project directory in both the server and client folders and run the following command to install dependencies:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+npm install
+Running the Client
+To run the client, execute the following command:
+npm run dev
+Ensure you are in the client directory before running this command.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This Markdown file provides clearer steps for cloning the repository, installing dependencies, and running the client.
