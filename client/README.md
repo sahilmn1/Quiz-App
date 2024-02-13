@@ -1,3 +1,9 @@
+#1 Clone this repository
+#2 In Both Server and Client 
+Just Run npm install 
+
+# To Run Client 
+Run Command npm run dev
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
